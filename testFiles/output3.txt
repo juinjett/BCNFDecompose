@@ -1,0 +1,17 @@
+A D E I: 
+A D E -> I
+
+E F G: 
+E -> F G
+E G -> F
+E F -> G
+
+G H: 
+G -> H
+
+A B: 
+A -> B
+
+C D: 
+D -> C
+

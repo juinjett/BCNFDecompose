@@ -1,0 +1,17 @@
+Grade_report(StudNo,StudName,(Major,Adviser, (CourseNo,Ctitle,InstrucName,InstructLocn,Grade)))
+                A       B       C       D        E        F         G           H         I
+
+StudNo -> StudName
+ CourseNo -> Ctitle,InstrucName
+ InstrucName -> InstrucLocn
+ StudNo,CourseNo,Major -> Grade
+ StudNo,Major -> Advisor
+ Advisor -> Major
+
+
+Student(StudNo,StudName)
+StudCourse(StudNo,Major,CourseNo,Grade)
+Course(CourseNo,Ctitle,InstrucName)
+Instructor(InstructName,InstructLocn)
+StudMajor(StudNo,Advisor)
+Adviser(Adviser,Major)

@@ -1,0 +1,7 @@
+ABCDEFGHI
+A -> B
+E -> FG
+G -> H
+ACE -> I
+AC -> D
+D -> C

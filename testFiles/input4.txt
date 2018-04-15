@@ -1,0 +1,4 @@
+ABCDE
+ABD -> C
+BC -> D
+CD -> E
