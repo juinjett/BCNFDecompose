@@ -122,7 +122,6 @@ public class Relation implements CustomizedList<Relation> {
         }
         List<List<Integer>> powerIdxList = new ArrayList<>();
         recursiveHelper(idxList, new ArrayList<>(), powerIdxList, idxList.size(), 0);
-//        powerIdxList.remove(powerIdxList.size()-1);
         powerIdxList.remove(0);
 //        System.out.println(powerIdxList);
 //        System.out.println(powerIdxList.size());
@@ -135,7 +134,6 @@ public class Relation implements CustomizedList<Relation> {
     public void recursiveHelper(List<Integer> idxList, List<Integer> tmpList, List<List<Integer>> powerIdxList, int length, int start) {
         if (start == length) {
             powerIdxList.add(0, new ArrayList<>(tmpList));
-//            powerIdxList.add( new ArrayList<>(tmpList));
             return;
         }
 
@@ -144,7 +142,6 @@ public class Relation implements CustomizedList<Relation> {
             recursiveHelper(idxList, tmpList, powerIdxList, length, i+1);
             tmpList.remove(tmpList.size()-1);
         }
-//        powerIdxList.add(new ArrayList<>(tmpList));
         powerIdxList.add(0, new ArrayList<>(tmpList));
     }
 
@@ -161,15 +158,6 @@ public class Relation implements CustomizedList<Relation> {
     public Relation powerSetNext() {
         if (!powerSetHasNext()) return null;
         return getNext();
-    }
-
-    public static void main(String[] args) {
-        Relation r = new Relation("c d e f");
-        Relation r2 = new Relation("C D");
-        Relation r3 = r2.complement(r);
-        System.out.println(r3.toString());
-
-        r.getPowerSet();
     }
 
     @Override
@@ -189,4 +177,13 @@ public class Relation implements CustomizedList<Relation> {
         cursor = 1;
         return list.get(0);
     }
+
+//    public static void main(String[] args) {
+//        Relation r = new Relation("c d e f");
+//        Relation r2 = new Relation("C D");
+//        Relation r3 = r2.complement(r);
+//        System.out.println(r3.toString());
+//
+//        r.getPowerSet();
+//    }
 }
