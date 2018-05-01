@@ -23,7 +23,7 @@ public class RFPair {
         RFPair[] res = new RFPair[2];
         int idx = 0;
         Fd fd = fdList.findViolation(r);
-        System.out.println(fd.toString());
+//        System.out.println(fd.toString());
         RelList decomposedList = fdList.relationDecompose(fd, r);
         while (decomposedList.hasNext()) {
             Relation subR = decomposedList.getNext();

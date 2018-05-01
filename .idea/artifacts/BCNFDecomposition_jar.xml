@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BCNFDecomposition:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BCNFDecomposition_jar</output-path>
+    <root id="archive" name="BCNFDecomposition.jar">
+      <element id="module-output" name="BCNFDecomposition" />
+    </root>
+  </artifact>
+</component>

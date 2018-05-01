@@ -4,5 +4,4 @@ public interface CustomizedList<E> {
     E getNext();
 
     E getFirst();
-//    Object getNext();
 }

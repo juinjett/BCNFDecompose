@@ -5,7 +5,6 @@ import java.util.*;
 
 public class BCNFTestDrive {
     public static Set<String> BCNFDecomposition(RFPair rf) {
-//        List<String> res = new ArrayList<>();
         Set<String> res = new HashSet<>();
         if (rf == null) {
             res.add("Empty RFPair, invalid input");
@@ -19,9 +18,9 @@ public class BCNFTestDrive {
 //            System.out.println(curr.toString());
             if (curr.hasBCNFViolation()) {
                 RFPair[] twoPairs = curr.decompose();
-                System.out.println("step");
-                System.out.println(twoPairs[0].toString());
-                System.out.println(twoPairs[1].toString());
+//                System.out.println("step");
+//                System.out.println(twoPairs[0].toString());
+//                System.out.println(twoPairs[1].toString());
                 stack.push(twoPairs[0]);
                 stack.push(twoPairs[1]);
             }
@@ -69,23 +68,12 @@ public class BCNFTestDrive {
         printWriter.close();
     }
 
-    public static void main(String[] args) {
-//        Relation r = new Relation("a b c d e");
-//        FdList fdList = new FdList();
-//        fdList.insert(new Fd("ab -> c"));
-//        fdList.insert(new Fd("c -> d"));
-//        fdList.insert(new Fd("d -> be"));
-//        RFPair one = new RFPair(r, fdList);
-//        List<String> res = BCNFDecomposition(one);
-//        System.out.println(res);
-
-//        String inPath = "testFiles/input1.txt";
-//        String outPath = "testFiles/output1.txt";
-
-//        String inPath = "testFiles/input3.txt";
-//        String outPath = "testFiles/output3.txt";
-        String inPath = "testFiles/input4.txt";
-        String outPath = "testFiles/output4.txt";
+    public static void main(String[] args) throws Exception {
+        if (args.length < 2) {
+            throw new Exception("Usage: <input dir> <output dir>");
+        }
+        String inPath = args[0];
+        String outPath = args[1];
         RFPair rf = getRFPair(inPath);
         Set<String> res = BCNFDecomposition(rf);
         write(res, outPath);
