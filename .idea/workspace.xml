@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a8d4d5-9643-4768-a546-49d46d98a253" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="e2a8d4d5-9643-4768-a546-49d46d98a253" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -433,12 +431,12 @@
       <workItem from="1524449196004" duration="35000" />
       <workItem from="1524449295086" duration="2528000" />
       <workItem from="1524952211867" duration="610000" />
-      <workItem from="1525185014731" duration="1412000" />
+      <workItem from="1525185014731" duration="1742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68525000" />
+    <option name="totallyTimeSpent" value="68855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1439" height="819" extended-state="6" />

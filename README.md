@@ -6,8 +6,11 @@ return the decomposed RF pair that has no BCNF violation.
 The example input has the format:
 
 A B C D E
+
 A B -> C
+
 C -> D
+
 D -> B E
 
 The output should has the same format.
