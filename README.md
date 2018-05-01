@@ -17,7 +17,7 @@ I have my own BCNFTestDrive.class so you can directly run the .jar that I provid
 Usage:
 In your terminal, run the following command:
 
-java -jar BCNFDecomposition.jar <input dir> <output dir>
+java -jar BCNFDecomposition.jar <input dir\> <output dir\>
 
 Here I provide four input test files in testFiles/ and also put four output files in testFiles/. 
 You can create your own test files in testFiles.
