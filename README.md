@@ -13,8 +13,10 @@ D -> B E
 The output should has the same format.
 
 I have my own BCNFTestDrive.class so you can directly run the .jar that I provide.
+
 Usage:
 In your terminal, run the following command:
+
 java -jar BCNFDecomposition.jar <input dir> <output dir>
 
 Here I provide four input test files in testFiles/ and also put four output files in testFiles/. 

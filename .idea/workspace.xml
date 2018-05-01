@@ -6,15 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a8d4d5-9643-4768-a546-49d46d98a253" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/BCNFDecomposition/BCNFTestDrive.class" afterPath="$PROJECT_DIR$/out/production/BCNFDecomposition/BCNFTestDrive.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/BCNFDecomposition/MyTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/BCNFTestDrive.java" afterPath="$PROJECT_DIR$/src/BCNFTestDrive.java" />
-      <change beforePath="$PROJECT_DIR$/src/CustomizedList.java" afterPath="$PROJECT_DIR$/src/CustomizedList.java" />
-      <change beforePath="$PROJECT_DIR$/src/MyTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/RFPair.java" afterPath="$PROJECT_DIR$/src/RFPair.java" />
-    </list>
+    <list default="true" id="e2a8d4d5-9643-4768-a546-49d46d98a253" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -232,17 +224,6 @@
             <path>
               <item name="BCNFDecomposition" type="b2602c69:ProjectViewProjectNode" />
               <item name="BCNFDecomposition" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BCNFDecomposition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BCNFDecomposition" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BCNFDecomposition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BCNFDecomposition" type="462c0819:PsiDirectoryNode" />
               <item name="testFiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -447,12 +428,12 @@
       <workItem from="1524449196004" duration="35000" />
       <workItem from="1524449295086" duration="2528000" />
       <workItem from="1524952211867" duration="610000" />
-      <workItem from="1525185014731" duration="944000" />
+      <workItem from="1525185014731" duration="1118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68057000" />
+    <option name="totallyTimeSpent" value="68231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1439" height="819" extended-state="6" />
@@ -467,10 +448,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28867403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.77348065" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26243094" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2154617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2154617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
